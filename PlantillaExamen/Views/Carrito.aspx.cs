@@ -12,7 +12,8 @@ namespace PlantillaExamen.Views
 {
     public partial class Carrito : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_Load(object sender, E
+            ventArgs e)
         {
             CargarProductos();
             if (Session["NombreUsuario"] != null && Session["NombreUsuario"].ToString() == "mlagunas")
